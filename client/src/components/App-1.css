@@ -1,0 +1,135 @@
+/* nav {
+    box-shadow: 0 5px 10px 5px #0000001a;
+} */
+.logo {width: 4rem;}
+.cart img {width: 2rem;}
+.cart span {
+    position: absolute;
+    top: -0.3rem;
+    right: -0.5rem;
+    text-align: center;
+}
+.pp {
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: 3.25rem;
+    margin-left: 1.5rem;
+    border: 2px solid #BD0707;
+    border-radius: 50%;
+}
+.after-nav {
+    padding-top: 8rem;
+}
+
+.modal {background: #000000e1;}
+.modal form {width: 22rem;}
+.modal-input {
+    padding: 0.5rem 0.35rem;
+    background: #f7f1f1;
+}
+
+.heading {
+    width: 86%;
+    aspect-ratio: 958 / 400;
+    background-image: url(../assets/background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.heading img {
+    position: absolute;
+    right: 10rem;
+    height: 19rem;
+    aspect-ratio: 451 / 324;
+}
+
+.drink-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(10rem, 1fr));
+    column-gap: 2rem;
+    row-gap: 3rem;
+    list-style: none;
+    padding-left: 0;
+}
+.drink-list img {
+    width: 100%;
+    aspect-ratio: 241 / 312;
+    object-fit: cover;
+}
+.drink-list p {
+    color: #974A4A;
+}
+
+.input {
+    padding: 0.5rem 0.35rem;
+    color: #757575;
+    background: #F7f1f1;
+    border: 2px solid #BD0707;
+    border-radius: 5px;
+}
+.input img {
+    height: 1.5rem;
+    margin-right: 0.75rem;
+}
+.input-product {
+    aspect-ratio: 241 / 312;
+    object-fit: cover;
+    height: 25rem;
+    margin-right: 7.5rem;
+    border-radius: 10px;
+}
+.input-toping {
+    aspect-ratio: 1;
+    object-fit: cover;
+    height: 25rem;
+    margin-right: 7.5rem;
+    border-radius: 50%;
+}
+.input-button {
+    width: 87.5%;
+    padding: 0.5rem 0;
+}
+
+.dropdown {
+    position: fixed;
+    top: 6rem;
+    right: 5.6rem;
+    padding-left: 0;
+    list-style: none;
+    box-shadow: 0 0 10px 5px #00000046;
+}
+.dropdown-triangle {
+    position: absolute;
+    top: -1rem;
+    right: 0.5rem;
+}
+.dropdown img {
+    width: 1.5rem;
+    margin-right: 0.75rem;
+}
+.dropdown li:last-of-type {border-top: 2px solid #a8a8a8;}
+
+th, td {
+    padding: 0.5rem;
+    border: 1px solid #828282;
+}
+
+span{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color:#BD0707 ;
+    color:white;
+}
+.loged span{
+    align-items: center;
+}
+
+th:nth-of-type(1) {width: 7.38%;}
+th:nth-of-type(2) {width: 28.72%;}
+th:nth-of-type(3) {width: 18.76%;}
+th:nth-of-type(4) {width: 9.53%;}
+th:nth-of-type(5) {width: 19.58%;}
+th:nth-of-type(6) {width: 16.41%;}
